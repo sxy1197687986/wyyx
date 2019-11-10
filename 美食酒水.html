@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./居家生活.css">
+    <link rel="stylesheet" type="text/css" href="swiper-5.2.0/package/css/swiper.min.css" />
+    <script src="jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="swiper-5.2.0/package/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+    <style>
+        #swp {
+            margin-bottom: 30px;
+            height: 310px;
+            width: 100%;
+            max-width: 1920px;
+            margin: auto;
+        }
+
+        .swiper-slide {
+            height: 420px;
+            width: 100%;
+            max-width: 1920px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            width: 50px;
+            height: 50px;
+            background-color: #E2C199;
+            border-radius: 500px;
+        }
+
+        .swiper-button-next.swiper-button-white,
+        .swiper-button-prev.swiper-button-white {
+            left: auto;
+            width: 50px;
+            height: 50px;
+            background-color: #E2C199;
+            border-radius: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="g-bd">
+        <div class="g-row">
+            <div class="m-crumbs">
+                <a href="" class="home">首页</a>
+                <span class="w-icon-arrow"></span>
+                <span class="z-cur">居家生活</span>
+            </div>
+            <div class="j-goodsAreaWrap">
+                <div class="m-app" style="margin-bottom: 30px;">
+                    <div class="swiper-container" id="swp">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"
+                                style="background-image:url(./img/0b14f5e3edc7de403f9956d44ba564b4.webp)">
+                            </div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./img/81f8230ffa01bce88b3009661d4ad7c9.webp)">
+                            </div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./img/5b39b88f54cdc7ae459450818ce28012.webp)">
+                            </div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./img/efa3f4623ac9cf60fde2429f19ff9cc7.webp)">
+                            </div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./img/557745d406c1bca95a6f3629560f10f4.webp)">
+                            </div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./img/63d96d4bff225c771d938df48f5fa650.webp)">
+                            </div>
+                            <div class="swiper-slide"
+                                style="background-image:url(./img/47b389e660313946fc7471c1c099d22d.webp)">
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination-white"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next swiper-button-white"></div>
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                    </div>
+                </div>
+                <div class="m-goodsArea">
+                    <div class="m-sortBar">
+                        <div class="category">
+                            <span class="name">分类：</span>
+                            <div class="categoryGroup">
+                                <!-- <a href="" class="active">全部</a>
+                                <a href="">秋冬好物</a>
+                                <a href="">主题床品</a>
+                                <a href="">北欧原木</a>
+                                <a href="">餐厨爆款清单</a>
+                                <a href="">床品件套</a>
+                                <a href="">被枕盖毯</a>
+                                <a href="">床垫床褥</a>
+                                <a href="">抱枕靠垫</a>
+                                <a href="">家饰</a>
+                                <a href="">居家布艺</a>
+                                <a href="">客餐厅家具</a>
+                                <a href="">卧室家具</a>
+                                <a href="">办公书房家具</a>
+                                <a href="">小件家具</a>
+                                <a href="">灯具</a>
+                                <a href="">地毯窗帘</a>
+                                <a href="">收纳</a>
+                                <a href="">晾晒除味</a>
+                                <a href="">毛巾浴巾</a>
+                                <a href="">居家拖鞋</a>
+                                <a href="">家庭医疗</a>
+                                <a href="">锅具</a>
+                                <a href="">餐厨配件</a>
+                                <a href="">刀剪砧板</a>
+                                <a href="">餐具</a>
+                                <a href="">水具杯壶</a>
+                                <a href="">茶咖酒具</a>
+                                <a href="">宠物食品</a>
+                                <a href="">宠物用品</a> -->
+                            </div>
+                        </div>
+                        <div class="area">
+                            <span class="name dth">配送地区：</span>
+                            <div class="categoryGroup1">
+                                <!-- <a href="" class="active">全部</a>
+                                <a href="">香港</a>
+                                <a href="">澳门</a>
+                                <a href="">台湾</a>
+                                <a href="">日韩</a>
+                                <a href="">欧洲</a>
+                                <a href="">美洲</a> -->
+                            </div>
+                        </div>
+                        <div class="sorts">
+                            <span class="name">排序：</span>
+                            <a href="" class="active sort">默认</a>
+                            <a href="" class="sort">
+                                <span>价格</span>
+                                <div class="ico">
+                                    <i class="w-icon-arrow arrow-up-gray"></i>
+                                    <i class="w-icon-arrow arrow-down-gray"></i>
+                                </div>
+                            </a>
+                            <a href="" class="sort sort-time">
+                                <span>上架时间</span>
+                                <i class="w-icon-arrow arrow-down-gray-l"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="m-content">
+                        <!-- <div class="m-Level2Category">
+                            <div class="hd">
+                                <p class="title">
+                                    <span class="name1">秋冬好物</span>
+                                </p>
+                                <p class="desc">秋冬好物</p>
+                            </div>
+                        </div> -->
+                        <!-- <ul class="mr mt">
+                            <li class="item">
+                            <div class="m-product j-product showScene">
+                                    <div class="hd1">
+                                        <a href="">
+                                            <div style="width: 100%;height: 100%;">
+                                                <img src="img/fd6cde9f93750f2f0468731807e104b9.webp" alt="" class ="pic">
+                                            </div>
+                                            <div class="hover" style="width: 100%; height: 100%;">
+                                                <img src="img/3a7bad1f645d002a1c897a28efc9323a.webp" alt="">
+                                            </div>
+                                            <img src="img/bf43c8b8b8c205b14e3ac27021e04394.png" alt="" class="promoLogo">
+                                            <div class="prombanner">
+                                                <div class="promTitle">
+                                                    <div class="title">
+                                                        <span>11月10日</span>
+                                                    </div>
+                                                    <div class="subTitle" style="vertical-align: middle;">
+                                                        <span>22点生效</span>
+                                                    </div>
+                                                </div>
+                                                <div class="promContent">抢全场8折券</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="bd">
+                                        <div class="prdtTags">
+                                            <span class="m-itemTag ">好货内部价</span>
+                                        </div>
+                                        <h4 class="name2">
+                                            <a href="">
+                                                <span>60s臻密绒磨毛四件套</span>
+                                            </a>
+                                        </h4>
+                                        <p class="price">
+                                            <span>
+                                                <span>￥</span>
+                                                <span>399</span>
+                                            </span>
+                                            <span class="counterPrice">
+                                                    <span>￥</span>
+                                                    <span>399</span>
+                                            </span>
+                                        </p>
+                                        <div>
+                                            <hr>
+                                            <p class="desc">浅绒如脂臻密，高级莫兰迪色系</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script src="./居家生活.js"></script>
+</body>
+
+</html>
